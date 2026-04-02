@@ -40,63 +40,89 @@ def extract_features(uid, users, user_posts):
     plist = user_posts[uid]
     desc = u.get("description") or ""
 
-    # --- Timing features ---
+    texts = [p["text"] for p in plist]
+
+    # ─────────────────────────
+    # TIMING
+    # ─────────────────────────
     if len(plist) >= 2:
         times = sorted(
             datetime.datetime.fromisoformat(p["created_at"].replace("Z", "+00:00"))
             for p in plist
         )
         intervals = [(times[i + 1] - times[i]).total_seconds() for i in range(len(times) - 1)]
-        t_var = statistics.variance(intervals) if len(intervals) > 1 else 0
-        t_mean = statistics.mean(intervals)
-        t_cv = (t_var ** 0.5 / t_mean) if t_mean > 0 else 0
-        t_min = min(intervals)
-        burst_ratio = sum(1 for iv in intervals if iv < 60) / len(intervals)
-        night_posts = sum(1 for t in times if t.hour < 6) / len(times)
-    else:
-        t_var = t_cv = t_min = burst_ratio = night_posts = 0
 
-    # --- Text features ---
-    texts = [p["text"] for p in plist]
+        t_mean = statistics.mean(intervals)
+        t_var = statistics.variance(intervals) if len(intervals) > 1 else 0
+        t_cv = (t_var ** 0.5 / t_mean) if t_mean > 0 else 0
+
+        burst_ratio = sum(1 for iv in intervals if iv < 30) / len(intervals)
+        ultra_fast_ratio = sum(1 for iv in intervals if iv < 10) / len(intervals)
+        t_min = min(intervals)
+    else:
+        t_mean = t_var = t_cv = burst_ratio = ultra_fast_ratio = t_min = 0
+
+    # ─────────────────────────
+    # TEXT BASIQUE
+    # ─────────────────────────
     avg_len = statistics.mean(len(t) for t in texts) if texts else 0
-    link_ratio = sum(1 for t in texts if "https://" in t) / len(texts) if texts else 0
+    link_ratio = sum(1 for t in texts if "http" in t) / len(texts) if texts else 0
     hashtag_ratio = sum(1 for t in texts if "#" in t) / len(texts) if texts else 0
     rt_ratio = sum(1 for t in texts if t.startswith("RT ")) / len(texts) if texts else 0
-    avg_hashtags = statistics.mean(len(re.findall(r"#\w+", t)) for t in texts) if texts else 0
-    short_ratio = sum(1 for t in texts if len(t) < 50) / len(texts) if texts else 0
-    caps_ratio = statistics.mean(
-        sum(1 for w in t.split() if w.isupper() and len(w) > 1) / max(len(t.split()), 1)
-        for t in texts
-    ) if texts else 0
 
-    # --- Temporal diversity ---
+    # ─────────────────────────
+    # 💣 FEATURES KILLER
+    # ─────────────────────────
+    if texts:
+        unique_text_ratio = len(set(texts)) / len(texts)
+        duplicate_ratio = 1 - unique_text_ratio
+
+        same_consecutive = sum(
+            1 for i in range(len(texts)-1) if texts[i] == texts[i+1]
+        ) / len(texts) if len(texts) > 1 else 0
+
+        avg_hashtags = statistics.mean(len(re.findall(r"#\w+", t)) for t in texts)
+
+        short_ratio = sum(1 for t in texts if len(t) < 40) / len(texts)
+
+        caps_ratio = statistics.mean(
+            sum(1 for w in t.split() if w.isupper() and len(w) > 1) / max(len(t.split()), 1)
+            for t in texts
+        )
+
+        emoji_ratio = sum(
+            1 for t in texts if any(c in t for c in "🚀🔥💰😂")
+        ) / len(texts)
+
+    else:
+        unique_text_ratio = duplicate_ratio = same_consecutive = 0
+        avg_hashtags = short_ratio = caps_ratio = emoji_ratio = 0
+
+    # ─────────────────────────
+    # DIVERSITÉ TEMPORELLE
+    # ─────────────────────────
     if plist:
         hours = [
             datetime.datetime.fromisoformat(p["created_at"].replace("Z", "+00:00")).hour
             for p in plist
         ]
         hour_unique_r = len(set(hours)) / len(hours)
-        langs = [p.get("lang", "") for p in plist]
-        lang_diversity = len(set(langs)) / len(langs)
     else:
-        hour_unique_r = lang_diversity = 0
-
-    # --- Consecutive tweet similarity (Jaccard) ---
-    def jaccard(a, b):
-        sa, sb = set(a.lower().split()), set(b.lower().split())
-        return len(sa & sb) / len(sa | sb) if sa | sb else 0
-
-    if len(texts) >= 2:
-        sims = [jaccard(texts[i], texts[i + 1]) for i in range(len(texts) - 1)]
-        avg_consec_sim = statistics.mean(sims)
-    else:
-        avg_consec_sim = 0
+        hour_unique_r = 0
 
     return [
         u["z_score"],
         u["tweet_count"],
+
+        # timing
+        t_mean,
         t_var,
         t_cv,
+        burst_ratio,
+        ultra_fast_ratio,
+        t_min,
+
+        # text
         avg_len,
         link_ratio,
         hashtag_ratio,
@@ -104,14 +130,17 @@ def extract_features(uid, users, user_posts):
         avg_hashtags,
         short_ratio,
         caps_ratio,
+
+        # killer
+        unique_text_ratio,
+        duplicate_ratio,
+        same_consecutive,
+        emoji_ratio,
+
+        # meta
         1 if desc.strip() else 0,
         len(desc),
-        hour_unique_r,
-        lang_diversity,
-        burst_ratio,
-        night_posts,
-        avg_consec_sim,
-        t_min,
+        hour_unique_r
     ]
 
 
