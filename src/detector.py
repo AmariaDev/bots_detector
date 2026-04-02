@@ -24,10 +24,10 @@ from sklearn.ensemble import GradientBoostingClassifier
 # ─────────────────────────────────────────────
 # TRAINING DATA PATHS (practice datasets)
 # ─────────────────────────────────────────────
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+SCRIPT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TRAIN_DATASETS = [
-    (os.path.join(SCRIPT_DIR, "data", f"dataset_posts_users_{i}.json"),
-     os.path.join(SCRIPT_DIR, "data", f"dataset_bots_{i}.txt"))
+    (os.path.join(SCRIPT_DIR, "data", f"dataset.posts&users.{i}.json"),
+     os.path.join(SCRIPT_DIR, "data", f"dataset.bots.{i}.txt"))
     for i in range(1, 7)
 ]
 
@@ -116,7 +116,7 @@ def extract_features(uid, users, user_posts):
 
 
 def load_dataset(json_path, bots_path=None):
-    with open(json_path) as f:
+    with open(json_path, encoding="utf-8") as f:
         data = json.load(f)
     users = {u["id"]: u for u in data["users"]}
     user_posts = defaultdict(list)
