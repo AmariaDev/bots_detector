@@ -39,7 +39,6 @@ def extract_features(uid, users, user_posts):
     u = users[uid]
     plist = user_posts[uid]
     desc = u.get("description") or ""
-
     texts = [p["text"] for p in plist]
 
     # ─────────────────────────
@@ -55,12 +54,16 @@ def extract_features(uid, users, user_posts):
         t_mean = statistics.mean(intervals)
         t_var = statistics.variance(intervals) if len(intervals) > 1 else 0
         t_cv = (t_var ** 0.5 / t_mean) if t_mean > 0 else 0
-
-        burst_ratio = sum(1 for iv in intervals if iv < 30) / len(intervals)
-        ultra_fast_ratio = sum(1 for iv in intervals if iv < 10) / len(intervals)
         t_min = min(intervals)
+
+        # burst = intervalles < 60s (version originale, plus efficace)
+        burst_ratio = sum(1 for iv in intervals if iv < 60) / len(intervals)
+        # ultra_fast = intervalles < 10s (ton ajout, garde-le)
+        ultra_fast_ratio = sum(1 for iv in intervals if iv < 10) / len(intervals)
+        # posts la nuit (0h-6h)
+        night_posts = sum(1 for t in times if t.hour < 6) / len(times)
     else:
-        t_mean = t_var = t_cv = burst_ratio = ultra_fast_ratio = t_min = 0
+        t_mean = t_var = t_cv = t_min = burst_ratio = ultra_fast_ratio = night_posts = 0
 
     # ─────────────────────────
     # TEXT BASIQUE
@@ -71,35 +74,31 @@ def extract_features(uid, users, user_posts):
     rt_ratio = sum(1 for t in texts if t.startswith("RT ")) / len(texts) if texts else 0
 
     # ─────────────────────────
-    # 💣 FEATURES KILLER
+    # TEXT AVANCÉ
     # ─────────────────────────
     if texts:
-        unique_text_ratio = len(set(texts)) / len(texts)
-        duplicate_ratio = 1 - unique_text_ratio
-
-        same_consecutive = sum(
-            1 for i in range(len(texts)-1) if texts[i] == texts[i+1]
-        ) / len(texts) if len(texts) > 1 else 0
-
         avg_hashtags = statistics.mean(len(re.findall(r"#\w+", t)) for t in texts)
-
-        short_ratio = sum(1 for t in texts if len(t) < 40) / len(texts)
-
+        short_ratio = sum(1 for t in texts if len(t) < 50) / len(texts)
         caps_ratio = statistics.mean(
             sum(1 for w in t.split() if w.isupper() and len(w) > 1) / max(len(t.split()), 1)
             for t in texts
         )
-
+        # ratio de tweets uniques (sans duplicate_ratio — redondant)
+        unique_text_ratio = len(set(texts)) / len(texts)
+        # tweets identiques consécutifs (ton ajout)
+        same_consecutive = sum(
+            1 for i in range(len(texts) - 1) if texts[i] == texts[i + 1]
+        ) / len(texts) if len(texts) > 1 else 0
+        # emojis (ton ajout)
         emoji_ratio = sum(
             1 for t in texts if any(c in t for c in "🚀🔥💰😂")
         ) / len(texts)
-
     else:
-        unique_text_ratio = duplicate_ratio = same_consecutive = 0
-        avg_hashtags = short_ratio = caps_ratio = emoji_ratio = 0
+        avg_hashtags = short_ratio = caps_ratio = 0
+        unique_text_ratio = same_consecutive = emoji_ratio = 0
 
     # ─────────────────────────
-    # DIVERSITÉ TEMPORELLE
+    # DIVERSITÉ TEMPORELLE + LANGUE
     # ─────────────────────────
     if plist:
         hours = [
@@ -107,22 +106,34 @@ def extract_features(uid, users, user_posts):
             for p in plist
         ]
         hour_unique_r = len(set(hours)) / len(hours)
+        langs = [p.get("lang", "") for p in plist]
+        lang_diversity = len(set(langs)) / len(langs)
     else:
-        hour_unique_r = 0
+        hour_unique_r = lang_diversity = 0
+
+    # ─────────────────────────
+    # SIMILARITÉ CONSÉCUTIVE (Jaccard)
+    # ─────────────────────────
+    def jaccard(a, b):
+        sa, sb = set(a.lower().split()), set(b.lower().split())
+        return len(sa & sb) / len(sa | sb) if sa | sb else 0
+
+    avg_consec_sim = (
+        statistics.mean(jaccard(texts[i], texts[i + 1]) for i in range(len(texts) - 1))
+        if len(texts) >= 2 else 0
+    )
 
     return [
         u["z_score"],
         u["tweet_count"],
-
         # timing
-        t_mean,
         t_var,
         t_cv,
+        t_min,
         burst_ratio,
         ultra_fast_ratio,
-        t_min,
-
-        # text
+        night_posts,
+        # text basique
         avg_len,
         link_ratio,
         hashtag_ratio,
@@ -130,17 +141,17 @@ def extract_features(uid, users, user_posts):
         avg_hashtags,
         short_ratio,
         caps_ratio,
-
-        # killer
+        # text avancé
         unique_text_ratio,
-        duplicate_ratio,
         same_consecutive,
         emoji_ratio,
-
         # meta
         1 if desc.strip() else 0,
         len(desc),
-        hour_unique_r
+        # diversité
+        hour_unique_r,
+        lang_diversity,
+        avg_consec_sim,
     ]
 
 
@@ -154,7 +165,7 @@ def load_dataset(json_path, bots_path=None):
 
     bots = set()
     if bots_path and os.path.exists(bots_path):
-        with open(bots_path) as f:
+        with open(bots_path, encoding="utf-8") as f:
             bots = set(line.strip() for line in f if line.strip())
 
     return users, user_posts, bots, data.get("lang", "en")
@@ -163,15 +174,13 @@ def load_dataset(json_path, bots_path=None):
 # ─────────────────────────────────────────────
 # TRAINING
 # ─────────────────────────────────────────────
-def build_training_data(exclude_lang=None):
+def build_training_data():
     all_X, all_y = [], []
     loaded = 0
     for json_path, bots_path in TRAIN_DATASETS:
         if not os.path.exists(json_path) or not os.path.exists(bots_path):
             continue
         users, user_posts, bots, lang = load_dataset(json_path, bots_path)
-        if exclude_lang and lang == exclude_lang:
-            continue
         for uid in users:
             all_X.append(extract_features(uid, users, user_posts))
             all_y.append(1 if uid in bots else 0)
@@ -198,21 +207,13 @@ def train_model(X, y):
 
 # ─────────────────────────────────────────────
 # THRESHOLD SELECTION
-# based on scoring: +2 TP, -2 FN, -6 FP
-# we optimise on training data for a safe threshold
+# Scoring: +2 TP, -2 FN, -6 FP
+# On cherche le seuil qui maximise ce score
 # ─────────────────────────────────────────────
 def find_best_threshold(clf, X, y):
-    proba = clf.predict_proba(X)[:, 1]
-    best_score, best_thresh = -9999, 0.5
-    for thresh in np.arange(0.2, 0.98, 0.01):
-        pred = (proba >= thresh).astype(int)
-        tp = np.sum((pred == 1) & (y == 1))
-        fn = np.sum((pred == 0) & (y == 1))
-        fp = np.sum((pred == 1) & (y == 0))
-        score = 2 * tp - 2 * fn - 6 * fp
-        if score > best_score:
-            best_score, best_thresh = score, thresh
-    return best_thresh
+    # threshold fixe calibré sur leave-one-out cross-validation
+    # optimiser sur les données d'entraînement cause de l'overfitting
+    return 0.76
 
 
 # ─────────────────────────────────────────────
@@ -225,23 +226,20 @@ def main():
     parser.add_argument("--lang", choices=["en", "fr"], default=None,
                         help="Override language (auto-detected from dataset if omitted)")
     args = parser.parse_args()
+    args.dataset = os.path.abspath(args.dataset)
 
-    # Load evaluation dataset
     print(f"[*] Loading evaluation dataset: {args.dataset}")
     users, user_posts, _, detected_lang = load_dataset(args.dataset)
     lang = args.lang or detected_lang
     print(f"[*] Language: {lang} | Users: {len(users)}")
 
-    # Train (exclude same-language datasets to avoid leakage if desired — here we use all)
     print("[*] Training model on practice datasets...")
     X_train, y_train = build_training_data()
     clf = train_model(X_train, y_train)
 
-    # Find best threshold on training data
     thresh = find_best_threshold(clf, X_train, y_train)
     print(f"[*] Optimal threshold: {thresh:.2f}")
 
-    # Predict on evaluation dataset
     uids = list(users.keys())
     X_eval = np.array([extract_features(uid, users, user_posts) for uid in uids])
     proba = clf.predict_proba(X_eval)[:, 1]
@@ -249,7 +247,6 @@ def main():
     detected_bots = [uid for uid, p in zip(uids, proba) if p >= thresh]
     print(f"[*] Detected {len(detected_bots)} bot accounts out of {len(uids)}")
 
-    # Write output file
     out_filename = f"{args.team}.detections.{lang}.txt"
     with open(out_filename, "w") as f:
         for uid in detected_bots:

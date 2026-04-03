@@ -1,0 +1,1180 @@
+{
+  "id": 98,
+  "lang": "fr",
+  "metadata": {
+    "start_time": "2024-03-16T00:00:00Z",
+    "end_time": "2024-03-18T00:00:00Z",
+    "total_amount_users": 13,
+    "total_amount_posts": 145,
+    "topics": [
+      {
+        "topic": "pop",
+        "keywords": [
+          "pop music",
+          "musique pop"
+        ]
+      },
+      {
+        "topic": "nba",
+        "keywords": [
+          "nba",
+          "#nba"
+        ]
+      },
+      {
+        "topic": "movies",
+        "keywords": [
+          "film",
+          "cinéma",
+          "#films"
+        ]
+      },
+      {
+        "topic": "nhl",
+        "keywords": [
+          "nhl",
+          "#nhl",
+          "hockey"
+        ]
+      }
+    ],
+    "users_average_amount_posts": 11.15,
+    "users_average_z_score": 0.0
+  },
+  "posts": [
+    {
+      "text": "['Des gaufres ont été commandées par moi'] https://t.co/twitter_link",
+      "created_at": "2024-03-16T00:18:35.000Z",
+      "id": "294e23b3-14fc-4a13-bae5-b92d773ba7b6",
+      "author_id": "e180c7e9-b2a0-408b-a266-42c3868f61ac",
+      "lang": "fr"
+    },
+    {
+      "text": "Il convient de noter que le succès n'arrive pas du jour au lendemain.",
+      "created_at": "2024-03-16T00:08:24.000Z",
+      "id": "30ed84ff-7abc-431f-9e2a-3991e64ac11f",
+      "author_id": "162c295a-6ded-4e93-bc5a-07c6622ef0bc",
+      "lang": "fr"
+    },
+    {
+      "text": "- ptdrrrrrrrrrrrrrrr! https://t.co/twitter_link",
+      "created_at": "2024-03-16T20:33:13.000Z",
+      "id": "444e30ef-9003-4f13-9f90-eaed64491cba",
+      "author_id": "789a52f6-3a23-43a5-8b8e-d08f1f1351f5",
+      "lang": "fr"
+    },
+    {
+      "text": "Garde de nuit hier, je suis épuisée mais c'est le métier que j'aime.",
+      "created_at": "2024-03-16T00:55:13.000Z",
+      "id": "f4762871-d3f5-4160-bdd4-dfbd1d3bcd97",
+      "author_id": "7c106e2e-1822-4b62-b5c1-1c54036d4722",
+      "lang": "fr"
+    },
+    {
+      "text": "Les Raptors sont en feu ce soir, belle surprise pour un mardi soir.",
+      "created_at": "2024-03-16T12:58:05.000Z",
+      "id": "76aea9ea-825e-4f6f-8d15-6d179935b2c5",
+      "author_id": "04ce8699-61e9-4a9e-8db3-829b6a5674af",
+      "lang": "fr"
+    },
+    {
+      "text": "- C tlm du cinéma.",
+      "created_at": "2024-03-16T14:49:58.000Z",
+      "id": "14dfa8d5-88cb-40e0-b53b-82882901802a",
+      "author_id": "789a52f6-3a23-43a5-8b8e-d08f1f1351f5",
+      "lang": "fr"
+    },
+    {
+      "text": "Randonnée ce matin avant le travail, le Saint-Laurent était magnifique.",
+      "created_at": "2024-03-16T01:38:14.000Z",
+      "id": "626f3213-6142-4284-90fa-30fcf4692783",
+      "author_id": "7c106e2e-1822-4b62-b5c1-1c54036d4722",
+      "lang": "fr"
+    },
+    {
+      "text": "- Selon Marc Stein, les 76ers seraient sur les rangs pour faire venir Paul George si jamais il devenait agent libre.",
+      "created_at": "2024-03-16T09:24:48.000Z",
+      "id": "65a9e5fa-2b99-4608-8522-cf0a4a4d485b",
+      "author_id": "c6b0ad97-2de4-4354-9f2c-3601ba555505",
+      "lang": "fr"
+    },
+    {
+      "text": "Il convient de souligner l'importance de prendre soin de sa santé mentale.",
+      "created_at": "2024-03-16T00:18:40.000Z",
+      "id": "39294bf0-0f94-4833-9088-02fca91ca7e3",
+      "author_id": "162c295a-6ded-4e93-bc5a-07c6622ef0bc",
+      "lang": "fr"
+    },
+    {
+      "text": "Viens de me brûler la langue à cause de mon café trop chaud. Vraiment, la vie est dure.",
+      "created_at": "2024-03-16T06:31:31.000Z",
+      "id": "41fd8544-11fc-4c44-a344-1d1e5c29d6f4",
+      "author_id": "be322fc2-9201-454e-b587-29811b8116c4",
+      "lang": "fr"
+    },
+    {
+      "text": "Je viens de découvrir une nouvelle chanson pop et franchement elle donne des vibes de playoffs.",
+      "created_at": "2024-03-16T00:22:03.000Z",
+      "id": "35d50ea4-b44e-4c8c-9169-3b8bedd6d9d6",
+      "author_id": "0967d7b3-33da-44d9-9ba8-91c862ee6fb4",
+      "lang": "fr"
+    },
+    {
+      "text": "Juts rewatched this film. It holds up so well.",
+      "created_at": "2024-03-16T00:17:36.000Z",
+      "id": "8041566d-ab58-49e8-95a2-8da41eec2f6f",
+      "author_id": "b895b22e-443e-4498-8de9-63947e0d4932",
+      "lang": "fr"
+    },
+    {
+      "text": "Cet album pop est un chef-d'oeuvre absolu. Exactement comme ce match de NBA ce soir.",
+      "created_at": "2024-03-16T00:07:36.000Z",
+      "id": "966c18cb-b290-4a56-9ab9-14ae6e70c174",
+      "author_id": "0967d7b3-33da-44d9-9ba8-91c862ee6fb4",
+      "lang": "fr"
+    },
+    {
+      "text": "Je viens de poster quelque chose, mais je ne sais pas si j'ai fait ça correctement.",
+      "created_at": "2024-03-16T06:19:55.000Z",
+      "id": "b42bdc37-d9a9-42ad-8fe1-dd41411b8572",
+      "author_id": "3f25b029-c7ec-45d1-87fb-91caac7e7b03",
+      "lang": "fr"
+    },
+    {
+      "text": "- Je jure que j'ai cligné des yeux et le basket NBA a envahi l'intégralité d'internet.",
+      "created_at": "2024-03-16T04:25:12.000Z",
+      "id": "2988bd53-91fc-44ca-afde-ed813ec716c5",
+      "author_id": "789a52f6-3a23-43a5-8b8e-d08f1f1351f5",
+      "lang": "fr"
+    },
+    {
+      "text": "['La fin de ce film me hante encore']",
+      "created_at": "2024-03-16T00:15:20.000Z",
+      "id": "141d3c0d-8a85-4bcf-a15b-6ad3fbe866dd",
+      "author_id": "e180c7e9-b2a0-408b-a266-42c3868f61ac",
+      "lang": "fr"
+    },
+    {
+      "text": "Soirée tranquille ce soir, livre et thé. Parfait après une semaine chargée.",
+      "created_at": "2024-03-16T06:12:13.000Z",
+      "id": "64dca730-3895-412e-b263-20487f21d0c7",
+      "author_id": "7c106e2e-1822-4b62-b5c1-1c54036d4722",
+      "lang": "fr"
+    },
+    {
+      "text": "['Ce réalisateur est le meilleur de sa génération'] https://t.co/twitter_link",
+      "created_at": "2024-03-16T00:26:42.000Z",
+      "id": "3540db7a-41b7-46b9-bc4a-0de125d36065",
+      "author_id": "e180c7e9-b2a0-408b-a266-42c3868f61ac",
+      "lang": "fr"
+    },
+    {
+      "text": "De plus, la persévérance est la clé de tout accomplissement durable.",
+      "created_at": "2024-03-16T00:13:57.000Z",
+      "id": "e65bbec1-1885-4989-a03b-d67ddf8f34b3",
+      "author_id": "162c295a-6ded-4e93-bc5a-07c6622ef0bc",
+      "lang": "fr"
+    },
+    {
+      "text": "- Selon Marc Stein, les 76ers seraient sur les rangs pour faire venir Paul George si jamais il devenait agent libre.",
+      "created_at": "2024-03-16T01:27:36.000Z",
+      "id": "d0a64085-681b-4793-995b-20a9110f196f",
+      "author_id": "c6b0ad97-2de4-4354-9f2c-3601ba555505",
+      "lang": "fr"
+    },
+    {
+      "text": "Voici quelques-uns de mes tweets récents: l'amour et la gratitude changent tout.",
+      "created_at": "2024-03-16T00:20:40.000Z",
+      "id": "cb66026b-6f2a-4e5d-8b6b-aa0c4ca12ca8",
+      "author_id": "162c295a-6ded-4e93-bc5a-07c6622ef0bc",
+      "lang": "fr"
+    },
+    {
+      "text": "- TikTok a du sang sur les mains. https://t.co/twitter_link",
+      "created_at": "2024-03-16T13:24:43.000Z",
+      "id": "6f08a797-c086-4d2d-b2e5-b856192aaa8f",
+      "author_id": "789a52f6-3a23-43a5-8b8e-d08f1f1351f5",
+      "lang": "fr"
+    },
+    {
+      "text": "On est allés voir un film hier, je m'attendais à rien et j'ai adoré.",
+      "created_at": "2024-03-16T10:21:09.000Z",
+      "id": "3bda9dc2-0ecf-4633-8a74-ed205e013402",
+      "author_id": "04ce8699-61e9-4a9e-8db3-829b6a5674af",
+      "lang": "fr"
+    },
+    {
+      "text": "- On l'a fait, les gars sont internationaux maintenant. https://t.co/twitter_link",
+      "created_at": "2024-03-16T06:14:19.000Z",
+      "id": "ad3a8f8f-6c6f-4d42-8216-ee16c53cae5b",
+      "author_id": "789a52f6-3a23-43a5-8b8e-d08f1f1351f5",
+      "lang": "fr"
+    },
+    {
+      "text": "appuyé sur snooze trop de fois ce matin... en retard encore une fois... merci réveil #VieDure",
+      "created_at": "2024-03-16T05:55:52.000Z",
+      "id": "49649925-cce0-4af4-a94e-4070a4dbd192",
+      "author_id": "be322fc2-9201-454e-b587-29811b8116c4",
+      "lang": "fr"
+    },
+    {
+      "text": "Pop music et NBA, mes deux grandes passions. Ce soir les deux en même temps.",
+      "created_at": "2024-03-16T00:25:58.000Z",
+      "id": "91d6ca81-294e-4fa4-9cd5-f2e28cd85e75",
+      "author_id": "0967d7b3-33da-44d9-9ba8-91c862ee6fb4",
+      "lang": "fr"
+    },
+    {
+      "text": "Appuyé sur snooze trois fois, maintenant en retard pour tout. Super stratégie.",
+      "created_at": "2024-03-16T10:50:20.000Z",
+      "id": "1366bbea-56bf-491c-b367-d501c633775d",
+      "author_id": "be322fc2-9201-454e-b587-29811b8116c4",
+      "lang": "fr"
+    },
+    {
+      "text": "Le système de santé est à bout de souffle, on a besoin d'aide concrète.",
+      "created_at": "2024-03-16T04:43:31.000Z",
+      "id": "b5db7925-50be-48b4-9290-0eca9cf7edbc",
+      "author_id": "7c106e2e-1822-4b62-b5c1-1c54036d4722",
+      "lang": "fr"
+    },
+    {
+      "text": "Encore marché dans une porte en verre. La deuxième fois cette semaine. Je suis en forme.",
+      "created_at": "2024-03-16T11:09:39.000Z",
+      "id": "24a05506-bb16-4030-87ec-2f3ccae7f4ef",
+      "author_id": "be322fc2-9201-454e-b587-29811b8116c4",
+      "lang": "fr"
+    },
+    {
+      "text": "- Dans mon ancien compte, j'avais dit que ceux qui parlaient franglais étaient des golmons.",
+      "created_at": "2024-03-16T14:20:24.000Z",
+      "id": "cb05f1e5-d775-4566-bd85-9e812024b3ef",
+      "author_id": "c6b0ad97-2de4-4354-9f2c-3601ba555505",
+      "lang": "fr"
+    },
+    {
+      "text": "La musique québécoise à l'international, c'est un phénomène qu'on sous-estime.",
+      "created_at": "2024-03-16T03:23:09.000Z",
+      "id": "077f7480-de11-47c5-9d22-2caea9cff4fd",
+      "author_id": "5cef3672-9f58-4b02-b7c5-7e978796121f",
+      "lang": "fr"
+    },
+    {
+      "text": "Le match était insane hier soir, j'ai crié comme un enfant.",
+      "created_at": "2024-03-16T01:35:39.000Z",
+      "id": "d69af7d9-a26c-4ece-bb06-3fa19102f37f",
+      "author_id": "08c58a87-5ef3-46a9-90aa-eb0744dc44a8",
+      "lang": "fr"
+    },
+    {
+      "text": "Oh, regardez, ils ont un bouton pour aimer. Mais qu'est-ce que cela signifie ?",
+      "created_at": "2024-03-16T03:46:03.000Z",
+      "id": "37681a25-3e1c-4306-8e7c-18c2acaa3def",
+      "author_id": "3f25b029-c7ec-45d1-87fb-91caac7e7b03",
+      "lang": "fr"
+    },
+    {
+      "text": "Viens de me brûler la langue encore. Mon café était bouillant et j'ai pas appris.",
+      "created_at": "2024-03-16T11:46:01.000Z",
+      "id": "c65d906f-1747-4581-a416-7ccac45865ec",
+      "author_id": "be322fc2-9201-454e-b587-29811b8116c4",
+      "lang": "fr"
+    },
+    {
+      "text": "La neige est enfin arrivée, mon fils est dans tous ses états pour le ski.",
+      "created_at": "2024-03-16T08:20:07.000Z",
+      "id": "333af2b5-4081-4538-9d97-d60d18c9bac0",
+      "author_id": "7c106e2e-1822-4b62-b5c1-1c54036d4722",
+      "lang": "fr"
+    },
+    {
+      "text": "Heureux d'avoir découvert cette nouvelle chanson pop aujourd'hui. NHL ce soir aussi.",
+      "created_at": "2024-03-16T00:19:59.000Z",
+      "id": "b7dab793-5696-4325-8fad-d844e2c4d54a",
+      "author_id": "0967d7b3-33da-44d9-9ba8-91c862ee6fb4",
+      "lang": "fr"
+    },
+    {
+      "text": "Is Spielberg overrated or appropriately hyped?",
+      "created_at": "2024-03-16T00:22:58.000Z",
+      "id": "1d91f244-d26d-40be-9464-f441635c2700",
+      "author_id": "b895b22e-443e-4498-8de9-63947e0d4932",
+      "lang": "fr"
+    },
+    {
+      "text": "Lu un article fascinant sur la médecine traditionnelle autochtone ce matin.",
+      "created_at": "2024-03-16T09:08:39.000Z",
+      "id": "80132862-3eaa-474a-910b-8d92467d6348",
+      "author_id": "7c106e2e-1822-4b62-b5c1-1c54036d4722",
+      "lang": "fr"
+    },
+    {
+      "text": "- Selon Marc Stein, les 76ers seraient sur les rangs pour faire venir Paul George si jamais il devenait agent libre.",
+      "created_at": "2024-03-16T05:23:59.000Z",
+      "id": "ad552077-19c7-4202-bdc2-7ea6b38c2f80",
+      "author_id": "c6b0ad97-2de4-4354-9f2c-3601ba555505",
+      "lang": "fr"
+    },
+    {
+      "text": "Nouvelle playlist sur Spotify, enfin de la bonne musique québécoise.",
+      "created_at": "2024-03-16T02:28:59.000Z",
+      "id": "313efb14-8269-4332-ba73-308a130c68dc",
+      "author_id": "04ce8699-61e9-4a9e-8db3-829b6a5674af",
+      "lang": "fr"
+    },
+    {
+      "text": "Mon film chouchou de l'année vient de sortir en streaming, allez le voir.",
+      "created_at": "2024-03-16T07:56:05.000Z",
+      "id": "b0845ba5-85d0-49be-ac39-f5ab308c5a99",
+      "author_id": "5cef3672-9f58-4b02-b7c5-7e978796121f",
+      "lang": "fr"
+    },
+    {
+      "text": "- Dsl tl certains de mes derniers rt sont spéciaux.",
+      "created_at": "2024-03-16T17:35:48.000Z",
+      "id": "19100ae4-b4e1-480e-8c9e-5c7fa8df4183",
+      "author_id": "c6b0ad97-2de4-4354-9f2c-3601ba555505",
+      "lang": "fr"
+    },
+    {
+      "text": "- Dans mon ancien compte, j'avais dit que ceux qui parlaient franglais étaient des golmons.",
+      "created_at": "2024-03-16T06:28:00.000Z",
+      "id": "ee9b9930-d5b3-45c0-9623-2c90ed6694c2",
+      "author_id": "c6b0ad97-2de4-4354-9f2c-3601ba555505",
+      "lang": "fr"
+    },
+    {
+      "text": "Comment fonctionne ce Twitter exactement ? Quelqu'un peut m'expliquer s'il vous plaît ?",
+      "created_at": "2024-03-16T08:55:00.000Z",
+      "id": "40b22772-f043-4e23-9428-1398cefea3d9",
+      "author_id": "3f25b029-c7ec-45d1-87fb-91caac7e7b03",
+      "lang": "fr"
+    },
+    {
+      "text": "- Le mec qui a un gun, c'est quand même le gars le moins intelligent du monde.",
+      "created_at": "2024-03-16T09:01:26.000Z",
+      "id": "a6c370b8-3777-41e2-82a3-c7319a9bb939",
+      "author_id": "789a52f6-3a23-43a5-8b8e-d08f1f1351f5",
+      "lang": "fr"
+    },
+    {
+      "text": "Il est important de rappeler que chaque jour est une nouvelle opportunité.",
+      "created_at": "2024-03-16T00:09:14.000Z",
+      "id": "164e6a3f-c5f1-4043-81e7-8e77de7a1b64",
+      "author_id": "162c295a-6ded-4e93-bc5a-07c6622ef0bc",
+      "lang": "fr"
+    },
+    {
+      "text": "En conclusion, n'oubliez jamais que vous avez la force d'avancer.",
+      "created_at": "2024-03-16T00:15:56.000Z",
+      "id": "e678c1fe-9f4a-43ac-87d6-31223a6c07e4",
+      "author_id": "162c295a-6ded-4e93-bc5a-07c6622ef0bc",
+      "lang": "fr"
+    },
+    {
+      "text": "Quelqu'un a un bon restaurant à recommander dans le Plateau?",
+      "created_at": "2024-03-16T05:37:18.000Z",
+      "id": "ef1e4b46-8cb3-4f85-bf5e-f1425ebb51e6",
+      "author_id": "08c58a87-5ef3-46a9-90aa-eb0744dc44a8",
+      "lang": "fr"
+    },
+    {
+      "text": "La pop music et le hockey ont plus en commun qu'on pense. Réflexion du soir.",
+      "created_at": "2024-03-16T00:21:10.000Z",
+      "id": "278ef09e-1330-4aa6-9dc2-c45d16136c59",
+      "author_id": "0967d7b3-33da-44d9-9ba8-91c862ee6fb4",
+      "lang": "fr"
+    },
+    {
+      "text": "Première fois que je regarde du hockey, c'est finalement pas si pire.",
+      "created_at": "2024-03-16T09:50:30.000Z",
+      "id": "a7a3e45d-0c11-4eb5-b4b9-521c574fa6a7",
+      "author_id": "e4a69977-4c34-459a-99e2-c6da2b7a28c4",
+      "lang": "fr"
+    },
+    {
+      "text": "- Selon Marc Stein, les 76ers seraient sur les rangs pour faire venir Paul George si jamais il devenait agent libre.",
+      "created_at": "2024-03-16T03:49:22.000Z",
+      "id": "76167ead-b832-4934-b30c-220a5f694168",
+      "author_id": "c6b0ad97-2de4-4354-9f2c-3601ba555505",
+      "lang": "fr"
+    },
+    {
+      "text": "Finalement j'ai essayé le nouveau restaurant dans mon quartier. Excellent.",
+      "created_at": "2024-03-16T20:28:24.000Z",
+      "id": "3b8dfb22-84bf-4d74-bd2c-83ad1a45e245",
+      "author_id": "04ce8699-61e9-4a9e-8db3-829b6a5674af",
+      "lang": "fr"
+    },
+    {
+      "text": "J'ai fait une poutine maison ce soir, pas mal du tout pour un premier essai.",
+      "created_at": "2024-03-16T07:18:48.000Z",
+      "id": "1aca5cc2-3015-41cb-b21c-68b42f1d798a",
+      "author_id": "04ce8699-61e9-4a9e-8db3-829b6a5674af",
+      "lang": "fr"
+    },
+    {
+      "text": "Est-ce que je peux utiliser cet outil pour commander un taxi ? J'ai du mal à comprendre.",
+      "created_at": "2024-03-16T04:14:35.000Z",
+      "id": "2c1d7292-b14f-4fee-aa48-f86af56a8e91",
+      "author_id": "3f25b029-c7ec-45d1-87fb-91caac7e7b03",
+      "lang": "fr"
+    },
+    {
+      "text": "Mon prof a rendu les copies, j'ai eu une meilleure note que prévu!",
+      "created_at": "2024-03-16T12:24:13.000Z",
+      "id": "7f2acce1-39b4-485c-ba15-0a3de3085f24",
+      "author_id": "e4a69977-4c34-459a-99e2-c6da2b7a28c4",
+      "lang": "fr"
+    },
+    {
+      "text": "OMG, envoyé joyeux anniversaire à un pote, mais c'était pas le bon jour LOL #jesuis",
+      "created_at": "2024-03-16T14:09:48.000Z",
+      "id": "c0362c5f-d7ab-4036-9728-07d9db236545",
+      "author_id": "be322fc2-9201-454e-b587-29811b8116c4",
+      "lang": "fr"
+    },
+    {
+      "text": "Le festival de jazz de Montréal reste l'un des meilleurs au monde selon moi.",
+      "created_at": "2024-03-16T04:09:59.000Z",
+      "id": "30547a8c-d2d8-4dc0-a162-7226488fc50a",
+      "author_id": "5cef3672-9f58-4b02-b7c5-7e978796121f",
+      "lang": "fr"
+    },
+    {
+      "text": "Si je réponds à quelqu'un ici, est-ce qu'ils verront ma réponse ? Ou c'est comme parler à un mur ?",
+      "created_at": "2024-03-16T04:50:39.000Z",
+      "id": "85b056fd-8736-4d5b-ae43-96f5392b3b80",
+      "author_id": "3f25b029-c7ec-45d1-87fb-91caac7e7b03",
+      "lang": "fr"
+    },
+    {
+      "text": "- Depuis la nuit des temps, je suis amoureux de Jalen Green. https://t.co/twitter_link",
+      "created_at": "2024-03-16T19:29:53.000Z",
+      "id": "9f5ae117-fe89-4f56-aa34-cd6479c63955",
+      "author_id": "789a52f6-3a23-43a5-8b8e-d08f1f1351f5",
+      "lang": "fr"
+    },
+    {
+      "text": "Juste marché dans une porte en verre... super sympa, surtout quand t'es devant un café bondé.",
+      "created_at": "2024-03-16T00:43:41.000Z",
+      "id": "fc9a525d-99d9-4b57-85c0-0a3ec0842be4",
+      "author_id": "be322fc2-9201-454e-b587-29811b8116c4",
+      "lang": "fr"
+    },
+    {
+      "text": "La pop music domine le monde. Les stats NBA aussi d'ailleurs, fascinant.",
+      "created_at": "2024-03-16T00:15:47.000Z",
+      "id": "57a4258c-13dc-444d-bb33-6c76df1ae4f8",
+      "author_id": "0967d7b3-33da-44d9-9ba8-91c862ee6fb4",
+      "lang": "fr"
+    },
+    {
+      "text": "['Meilleure expérience cinéma de l'année, aucun doute']",
+      "created_at": "2024-03-16T00:21:21.000Z",
+      "id": "1c3fc64e-3360-4dfb-bc80-01da4434d0c8",
+      "author_id": "e180c7e9-b2a0-408b-a266-42c3868f61ac",
+      "lang": "fr"
+    },
+    {
+      "text": "Is pop music overrated or appropriately hyped?",
+      "created_at": "2024-03-16T00:19:40.000Z",
+      "id": "bad6f045-69c3-48b5-8a48-dac4ea5042da",
+      "author_id": "b895b22e-443e-4498-8de9-63947e0d4932",
+      "lang": "fr"
+    },
+    {
+      "text": "Juste envoyé un joyeux anniversaire à quelqu'un mais c'était pas le bon jour... oups!",
+      "created_at": "2024-03-16T07:12:26.000Z",
+      "id": "68f26327-352c-49d3-8caa-bb926a854235",
+      "author_id": "be322fc2-9201-454e-b587-29811b8116c4",
+      "lang": "fr"
+    },
+    {
+      "text": "Is the NBA overrated or ppropriately hyped?",
+      "created_at": "2024-03-16T00:21:57.000Z",
+      "id": "2cef0a69-154f-4b29-9932-6de147524f45",
+      "author_id": "b895b22e-443e-4498-8de9-63947e0d4932",
+      "lang": "fr"
+    },
+    {
+      "text": "Is Céline Dion overrated or appropriately hyped?",
+      "created_at": "2024-03-16T00:03:27.000Z",
+      "id": "a9e5c135-a105-4c58-b5e4-eb6157b66f43",
+      "author_id": "b895b22e-443e-4498-8de9-63947e0d4932",
+      "lang": "fr"
+    },
+    {
+      "text": "Thread demain sur pourquoi le cinéma québécois mérite plus d'attention internationale.",
+      "created_at": "2024-03-16T08:30:25.000Z",
+      "id": "f20e2eef-6835-4bae-bb6d-d7f6a2286b66",
+      "author_id": "5cef3672-9f58-4b02-b7c5-7e978796121f",
+      "lang": "fr"
+    },
+    {
+      "text": "On a gagné le quiz de trivia hier soir, trop contente de notre équipe.",
+      "created_at": "2024-03-16T09:00:34.000Z",
+      "id": "41fe067f-4c37-40e0-89d9-aec17cbff387",
+      "author_id": "e4a69977-4c34-459a-99e2-c6da2b7a28c4",
+      "lang": "fr"
+    },
+    {
+      "text": "La pop music est sous-estimée, tout comme les Raptors cette saison selon moi.",
+      "created_at": "2024-03-16T00:08:28.000Z",
+      "id": "0d5c4fc0-ea37-41e6-ac86-b29e11c5d8ee",
+      "author_id": "0967d7b3-33da-44d9-9ba8-91c862ee6fb4",
+      "lang": "fr"
+    },
+    {
+      "text": "Le dernier Audiard est probablement son meilleur film depuis A Prophet.",
+      "created_at": "2024-03-16T01:45:12.000Z",
+      "id": "91fe2954-1f41-41d1-a759-7663ab332d6b",
+      "author_id": "5cef3672-9f58-4b02-b7c5-7e978796121f",
+      "lang": "fr"
+    },
+    {
+      "text": "Je pense que je vais essayer de retweeter, mais est-ce que ça veut dire que je suis d'accord ?",
+      "created_at": "2024-03-16T09:50:10.000Z",
+      "id": "4acf2bc4-38ac-4c29-b533-32418eee7251",
+      "author_id": "3f25b029-c7ec-45d1-87fb-91caac7e7b03",
+      "lang": "fr"
+    },
+    {
+      "text": "Cannes dans deux mois, les accréditations sont confirmées. Bonne session.",
+      "created_at": "2024-03-16T02:43:27.000Z",
+      "id": "8328343a-49cc-445f-a26f-f8a44a5064c2",
+      "author_id": "5cef3672-9f58-4b02-b7c5-7e978796121f",
+      "lang": "fr"
+    },
+    {
+      "text": "['La NHL et le cinéma: mes deux amours']",
+      "created_at": "2024-03-16T00:23:23.000Z",
+      "id": "877cd040-8f46-4cf9-b15b-705a7e2e2bf5",
+      "author_id": "e180c7e9-b2a0-408b-a266-42c3868f61ac",
+      "lang": "fr"
+    },
+    {
+      "text": "Voici quelques pensées pour démarrer votre semaine: croyez en vous.",
+      "created_at": "2024-03-16T00:10:49.000Z",
+      "id": "2f22dbd4-1852-45a9-b9ca-4347380dd946",
+      "author_id": "162c295a-6ded-4e93-bc5a-07c6622ef0bc",
+      "lang": "fr"
+    },
+    {
+      "text": "Viens de finir mon mémoire, je peux enfin respirer. Trois ans de travail.",
+      "created_at": "2024-03-16T00:37:03.000Z",
+      "id": "2fb3dfbc-790f-4510-ab04-2222fe280108",
+      "author_id": "e4a69977-4c34-459a-99e2-c6da2b7a28c4",
+      "lang": "fr"
+    },
+    {
+      "text": "- LeBron James reste tout simplement imbattable dans ce registre.",
+      "created_at": "2024-03-16T01:36:19.000Z",
+      "id": "b47a2f03-d766-4742-8673-b6fcc3b51790",
+      "author_id": "789a52f6-3a23-43a5-8b8e-d08f1f1351f5",
+      "lang": "fr"
+    },
+    {
+      "text": "Par contre la game des Oilers était incroyable hier. Quel troisième tiers.",
+      "created_at": "2024-03-16T02:22:25.000Z",
+      "id": "badc4495-e016-4995-afd7-3ce3d0f946c1",
+      "author_id": "04ce8699-61e9-4a9e-8db3-829b6a5674af",
+      "lang": "fr"
+    },
+    {
+      "text": "Is Drake overrated or appropriately hyped?",
+      "created_at": "2024-03-16T00:13:14.000Z",
+      "id": "e71087d4-b190-4483-ab09-c481faffaa2b",
+      "author_id": "b895b22e-443e-4498-8de9-63947e0d4932",
+      "lang": "fr"
+    },
+    {
+      "text": "Par ailleurs, les plus grandes réussites viennent des plus petits pas quotidiens.",
+      "created_at": "2024-03-16T00:13:23.000Z",
+      "id": "cd76dba4-e34a-4422-b8d5-582f79bda2a0",
+      "author_id": "162c295a-6ded-4e93-bc5a-07c6622ef0bc",
+      "lang": "fr"
+    },
+    {
+      "text": "Semaine de fou au bureau, j'ai hâte au week-end comme jamais.",
+      "created_at": "2024-03-16T01:08:26.000Z",
+      "id": "8faf4a12-2f3d-4242-9fec-da81a9bd05c7",
+      "author_id": "08c58a87-5ef3-46a9-90aa-eb0744dc44a8",
+      "lang": "fr"
+    },
+    {
+      "text": "La pop française est en pleine renaissance et c'est vraiment excitant à couvrir.",
+      "created_at": "2024-03-16T06:17:10.000Z",
+      "id": "7d964f01-1802-41c8-a5b9-441b8e9c958b",
+      "author_id": "5cef3672-9f58-4b02-b7c5-7e978796121f",
+      "lang": "fr"
+    },
+    {
+      "text": "Vu trois films cette semaine pour mon prochain papier. Yeux qui brûlent.",
+      "created_at": "2024-03-16T04:00:13.000Z",
+      "id": "9a04355e-178c-458c-96d0-95554b18ff5a",
+      "author_id": "5cef3672-9f58-4b02-b7c5-7e978796121f",
+      "lang": "fr"
+    },
+    {
+      "text": "Le campus est magnifique sous la neige mais bon, j'aurais préféré le soleil.",
+      "created_at": "2024-03-16T06:29:59.000Z",
+      "id": "1cb9cf59-4553-4d6a-a454-4c24e40b8770",
+      "author_id": "e4a69977-4c34-459a-99e2-c6da2b7a28c4",
+      "lang": "fr"
+    },
+    {
+      "text": "Je recommande vraiment cette exposition au musée, vraiment bien faite.",
+      "created_at": "2024-03-16T12:31:24.000Z",
+      "id": "6495b505-1df2-401f-9f79-33b667db404a",
+      "author_id": "7c106e2e-1822-4b62-b5c1-1c54036d4722",
+      "lang": "fr"
+    },
+    {
+      "text": "- AD qui boîte, tuez-moi.",
+      "created_at": "2024-03-16T20:02:43.000Z",
+      "id": "15db11ab-c8fb-42e2-9400-892736bfd11d",
+      "author_id": "789a52f6-3a23-43a5-8b8e-d08f1f1351f5",
+      "lang": "fr"
+    },
+    {
+      "text": "Le gardien du CH a sorti un miracle ce soir. Peut-être qu'on va survivre.",
+      "created_at": "2024-03-16T20:44:02.000Z",
+      "id": "de07bfe0-3475-4e26-b954-e8e9885b1885",
+      "author_id": "04ce8699-61e9-4a9e-8db3-829b6a5674af",
+      "lang": "fr"
+    },
+    {
+      "text": "['Le cinéma québécois mérite plus de reconnaissance internationale']",
+      "created_at": "2024-03-16T00:20:36.000Z",
+      "id": "529b5b6c-bd04-4a5f-9ccb-a164f647543b",
+      "author_id": "e180c7e9-b2a0-408b-a266-42c3868f61ac",
+      "lang": "fr"
+    },
+    {
+      "text": "- Je suis même pas sûre que ce soient des vrais followers.",
+      "created_at": "2024-03-16T17:49:49.000Z",
+      "id": "45d2db44-bcf4-4f24-9793-88939dd74879",
+      "author_id": "789a52f6-3a23-43a5-8b8e-d08f1f1351f5",
+      "lang": "fr"
+    },
+    {
+      "text": "Nuit calme aux urgences pour une fois. Je touche du bois.",
+      "created_at": "2024-03-16T12:57:31.000Z",
+      "id": "e12eba28-0e73-461a-90d6-3c80aedf3ca1",
+      "author_id": "7c106e2e-1822-4b62-b5c1-1c54036d4722",
+      "lang": "fr"
+    },
+    {
+      "text": "Week-end de ski en famille, c'était parfait malgré la longue route.",
+      "created_at": "2024-03-16T10:31:45.000Z",
+      "id": "37cb7538-9dc9-42b1-b983-7c11fdc5f395",
+      "author_id": "7c106e2e-1822-4b62-b5c1-1c54036d4722",
+      "lang": "fr"
+    },
+    {
+      "text": "Je ne comprends pas pourquoi tout le monde est toujours en train de tweeter.",
+      "created_at": "2024-03-16T07:15:28.000Z",
+      "id": "3934d219-b88f-46aa-8f2e-04a35cf48bd9",
+      "author_id": "3f25b029-c7ec-45d1-87fb-91caac7e7b03",
+      "lang": "fr"
+    },
+    {
+      "text": "Mon chat a encore renversé mon café sur mes notes. Merci beaucoup.",
+      "created_at": "2024-03-16T02:29:27.000Z",
+      "id": "a6daf2f2-6cb9-463d-b27a-8e967fad3c5a",
+      "author_id": "e4a69977-4c34-459a-99e2-c6da2b7a28c4",
+      "lang": "fr"
+    },
+    {
+      "text": "- Dans mon ancien compte, j'avais dit que ceux qui parlaient franglais étaient des golmons.",
+      "created_at": "2024-03-16T09:29:12.000Z",
+      "id": "f48a4ca8-1345-4643-bd0c-25de8a5a79a2",
+      "author_id": "c6b0ad97-2de4-4354-9f2c-3601ba555505",
+      "lang": "fr"
+    },
+    {
+      "text": "- Selon Marc Stein, les 76ers seraient sur les rangs pour attirer Paul George.",
+      "created_at": "2024-03-16T13:36:02.000Z",
+      "id": "b64e9594-b8cb-4e4b-98d2-0b97105bf30c",
+      "author_id": "c6b0ad97-2de4-4354-9f2c-3601ba555505",
+      "lang": "fr"
+    },
+    {
+      "text": "Concert de Festival d'été la semaine prochaine, trop hâte.",
+      "created_at": "2024-03-16T14:50:07.000Z",
+      "id": "b2022f06-8534-40d1-8ab9-075a350ac8c1",
+      "author_id": "04ce8699-61e9-4a9e-8db3-829b6a5674af",
+      "lang": "fr"
+    },
+    {
+      "text": "Is the NHL overrated or appropriately hyped?",
+      "created_at": "2024-03-16T00:07:18.000Z",
+      "id": "eaf33093-ed75-4908-ae9a-5c2743ec923d",
+      "author_id": "b895b22e-443e-4498-8de9-63947e0d4932",
+      "lang": "fr"
+    },
+    {
+      "text": "Critique à paraître demain, je suis partagée mais je penche vers le positif.",
+      "created_at": "2024-03-16T04:39:58.000Z",
+      "id": "bc7beda9-49f2-4c27-a061-500127efa01f",
+      "author_id": "5cef3672-9f58-4b02-b7c5-7e978796121f",
+      "lang": "fr"
+    },
+    {
+      "text": "Is Denzel Washington overrated or appropriately hyped?",
+      "created_at": "2024-03-16T00:26:22.000Z",
+      "id": "36e1bbc2-eb0c-4630-8e43-d797e9aff05f",
+      "author_id": "b895b22e-443e-4498-8de9-63947e0d4932",
+      "lang": "fr"
+    },
+    {
+      "text": "J'ai découvert une série québécoise incroyable, quelqu'un d'autre l'a vu?",
+      "created_at": "2024-03-16T01:18:50.000Z",
+      "id": "df04a757-6c64-4ad5-9e62-6e2e386ee686",
+      "author_id": "08c58a87-5ef3-46a9-90aa-eb0744dc44a8",
+      "lang": "fr"
+    },
+    {
+      "text": "Premier match de la saison ce soir, les enfants sont tellement excités.",
+      "created_at": "2024-03-16T06:56:46.000Z",
+      "id": "eebe30c8-3fd6-4315-a1fa-36a7cd4a30c5",
+      "author_id": "7c106e2e-1822-4b62-b5c1-1c54036d4722",
+      "lang": "fr"
+    },
+    {
+      "text": "Je recommande vraiment ce roman à tout le monde, c'est une pépite.",
+      "created_at": "2024-03-16T04:33:31.000Z",
+      "id": "14a0f82a-6f6c-48be-88e4-2f5398eb91fe",
+      "author_id": "e4a69977-4c34-459a-99e2-c6da2b7a28c4",
+      "lang": "fr"
+    },
+    {
+      "text": "['Le meilleur film québécois de la décennie, sans débat']",
+      "created_at": "2024-03-16T00:04:25.000Z",
+      "id": "e49fe8d1-cc0f-43b6-bb1a-b1ebad615963",
+      "author_id": "e180c7e9-b2a0-408b-a266-42c3868f61ac",
+      "lang": "fr"
+    },
+    {
+      "text": "- Dsl tl certains de mes derniers rt sont spéciaux.",
+      "created_at": "2024-03-16T07:50:53.000Z",
+      "id": "e6ac7d36-2bc1-4a8b-b48d-261742c6296c",
+      "author_id": "c6b0ad97-2de4-4354-9f2c-3601ba555505",
+      "lang": "fr"
+    },
+    {
+      "text": "En mode pop music pour me concentrer. Match NHL ce soir, hâte.",
+      "created_at": "2024-03-16T00:30:38.000Z",
+      "id": "e0d06c6a-adf9-4d66-9a06-2cda8ace3431",
+      "author_id": "0967d7b3-33da-44d9-9ba8-91c862ee6fb4",
+      "lang": "fr"
+    },
+    {
+      "text": "Le dernier update a tout cassé, c'est toujours pareil avec ces déploiements.",
+      "created_at": "2024-03-16T05:51:49.000Z",
+      "id": "2cc100eb-5616-4563-b09c-dc2387d74af1",
+      "author_id": "08c58a87-5ef3-46a9-90aa-eb0744dc44a8",
+      "lang": "fr"
+    },
+    {
+      "text": "- Dsl à tous, certains de mes derniers rt sont spéciaux.",
+      "created_at": "2024-03-16T10:08:40.000Z",
+      "id": "a63855fd-ac33-417a-9247-ff0af8d7ab46",
+      "author_id": "c6b0ad97-2de4-4354-9f2c-3601ba555505",
+      "lang": "fr"
+    },
+    {
+      "text": "Is Taylor Swift overrated or appropriately hyped?",
+      "created_at": "2024-03-16T00:25:51.000Z",
+      "id": "385388f3-8a2c-425b-8647-2ff95eb970d2",
+      "author_id": "b895b22e-443e-4498-8de9-63947e0d4932",
+      "lang": "fr"
+    },
+    {
+      "text": "La pop music québécoise prouve que le génie musical n'a pas de frontières. Comme le NHL d'ailleurs.",
+      "created_at": "2024-03-16T00:03:26.000Z",
+      "id": "14210788-e0a5-4a84-8038-c673998aba99",
+      "author_id": "0967d7b3-33da-44d9-9ba8-91c862ee6fb4",
+      "lang": "fr"
+    },
+    {
+      "text": "Mon nouveau roman préféré de l'année, une découverte absolument incroyable.",
+      "created_at": "2024-03-16T02:08:50.000Z",
+      "id": "efca52fc-772a-4da2-a161-ef330083ef40",
+      "author_id": "7c106e2e-1822-4b62-b5c1-1c54036d4722",
+      "lang": "fr"
+    },
+    {
+      "text": "['Je recommande ce film à absolument tout le monde']",
+      "created_at": "2024-03-16T00:28:03.000Z",
+      "id": "1f4c586d-e2b5-4e0e-bfa1-846cb2261dc8",
+      "author_id": "e180c7e9-b2a0-408b-a266-42c3868f61ac",
+      "lang": "fr"
+    },
+    {
+      "text": "Résultats d'examen demain, je vais pas dormir de la nuit.",
+      "created_at": "2024-03-16T10:20:14.000Z",
+      "id": "7fe88a24-8540-4edb-8392-eab509b98d1b",
+      "author_id": "e4a69977-4c34-459a-99e2-c6da2b7a28c4",
+      "lang": "fr"
+    },
+    {
+      "text": "Voici quelques-uns de mes tweets récents: c'est ma vie, c'est mon oxygène 🥰",
+      "created_at": "2024-03-16T00:04:30.000Z",
+      "id": "8de3adfe-2a06-4d0c-8eb1-7d130d1b1a88",
+      "author_id": "162c295a-6ded-4e93-bc5a-07c6622ef0bc",
+      "lang": "fr"
+    },
+    {
+      "text": "- Ptdrrrr, même mon argent est moins sale 😹😹😹 https://t.co/twitter_link",
+      "created_at": "2024-03-16T01:03:28.000Z",
+      "id": "99d61871-9a3a-433f-80c0-d0eb06a2e3fc",
+      "author_id": "789a52f6-3a23-43a5-8b8e-d08f1f1351f5",
+      "lang": "fr"
+    },
+    {
+      "text": "- Kawhi dans le clutch https://t.co/twitter_link",
+      "created_at": "2024-03-16T16:09:06.000Z",
+      "id": "779108b1-2e79-429c-8414-32c80b1e08ad",
+      "author_id": "789a52f6-3a23-43a5-8b8e-d08f1f1351f5",
+      "lang": "fr"
+    },
+    {
+      "text": "Le dernier album de Hubert Lenoir est vraiment fort, vous devriez écouter.",
+      "created_at": "2024-03-16T08:23:01.000Z",
+      "id": "712896fc-790f-4983-b6d9-394d76339793",
+      "author_id": "04ce8699-61e9-4a9e-8db3-829b6a5674af",
+      "lang": "fr"
+    },
+    {
+      "text": "Je suis un peu perdu ici, mais cela peut être amusant. Quelqu'un veut bien m'expliquer ?",
+      "created_at": "2024-03-16T04:18:36.000Z",
+      "id": "379da431-bf29-4e1f-81c7-ba42dba587d3",
+      "author_id": "3f25b029-c7ec-45d1-87fb-91caac7e7b03",
+      "lang": "fr"
+    },
+    {
+      "text": "Nouvelles AirPods achetées, la qualité audio c'est une autre game.",
+      "created_at": "2024-03-16T03:03:49.000Z",
+      "id": "31099d0d-28c3-4e7a-8a49-6e3416fad248",
+      "author_id": "08c58a87-5ef3-46a9-90aa-eb0744dc44a8",
+      "lang": "fr"
+    },
+    {
+      "text": "Is Scorsese overrated or appropriately hyped?",
+      "created_at": "2024-03-16T00:11:41.000Z",
+      "id": "b9f7c596-7f34-4061-92ec-ad2bbb6ea706",
+      "author_id": "b895b22e-443e-4498-8de9-63947e0d4932",
+      "lang": "fr"
+    },
+    {
+      "text": "En conclusion, ce qui compte c'est de se lever chaque matin avec intention.",
+      "created_at": "2024-03-16T00:07:08.000Z",
+      "id": "d91e73b4-7992-450b-90f0-304d30fe4c9f",
+      "author_id": "162c295a-6ded-4e93-bc5a-07c6622ef0bc",
+      "lang": "fr"
+    },
+    {
+      "text": "Mon équipe a perdu encore. Je commence à me demander pourquoi je regarde encore.",
+      "created_at": "2024-03-16T01:51:18.000Z",
+      "id": "92ef5d69-676e-4390-9277-f14c9d0962d1",
+      "author_id": "08c58a87-5ef3-46a9-90aa-eb0744dc44a8",
+      "lang": "fr"
+    },
+    {
+      "text": "Pourquoi tout le monde utilise des abréviations ? C'est si difficile à lire. Qui est ce LOL ?",
+      "created_at": "2024-03-16T01:36:28.000Z",
+      "id": "7bb34c05-a0dc-4f02-a91a-6f58e259613d",
+      "author_id": "3f25b029-c7ec-45d1-87fb-91caac7e7b03",
+      "lang": "fr"
+    },
+    {
+      "text": "La bibliothèque était pleine ce matin, tout le monde en session d'exam.",
+      "created_at": "2024-03-16T00:56:19.000Z",
+      "id": "a0cdc2ac-56e6-4d84-9528-9d95a75e1426",
+      "author_id": "e4a69977-4c34-459a-99e2-c6da2b7a28c4",
+      "lang": "fr"
+    },
+    {
+      "text": "Il y a tellement de jeunes ici. Est-ce qu'ils voient ce que j'écris ?",
+      "created_at": "2024-03-16T08:12:05.000Z",
+      "id": "2cd405f6-66f3-44dc-8151-82ed367159b7",
+      "author_id": "3f25b029-c7ec-45d1-87fb-91caac7e7b03",
+      "lang": "fr"
+    },
+    {
+      "text": "Mon équipe favorite depuis 30 ans, peu importe le classement je reste là.",
+      "created_at": "2024-03-16T09:48:07.000Z",
+      "id": "cc5cd693-1f8d-4d55-8af8-f969f0d95a87",
+      "author_id": "04ce8699-61e9-4a9e-8db3-829b6a5674af",
+      "lang": "fr"
+    },
+    {
+      "text": "['Mon amour pour le cinéma est immense'] https://t.co/twitter_link",
+      "created_at": "2024-03-16T00:08:08.000Z",
+      "id": "74a15e3b-8279-489b-8cbe-401a51cc2ce8",
+      "author_id": "e180c7e9-b2a0-408b-a266-42c3868f61ac",
+      "lang": "fr"
+    },
+    {
+      "text": "Est-ce vraiment nécessaire d'avoir tant de hashtags ? Je n'ai jamais compris ça.",
+      "created_at": "2024-03-16T08:24:43.000Z",
+      "id": "e8932c79-0f57-4f4a-be2c-f59c7cf10629",
+      "author_id": "3f25b029-c7ec-45d1-87fb-91caac7e7b03",
+      "lang": "fr"
+    },
+    {
+      "text": "Journée de télétravail, pyjama toute la journée. La belle vie.",
+      "created_at": "2024-03-16T05:05:09.000Z",
+      "id": "1e4684e3-933c-4c1d-9d0e-973312ffdafb",
+      "author_id": "08c58a87-5ef3-46a9-90aa-eb0744dc44a8",
+      "lang": "fr"
+    },
+    {
+      "text": "Cours annulé ce matin, j'en profite pour avancer sur ma lecture.",
+      "created_at": "2024-03-16T05:26:29.000Z",
+      "id": "6ad39b3d-e92a-4796-b39e-7e581d182676",
+      "author_id": "e4a69977-4c34-459a-99e2-c6da2b7a28c4",
+      "lang": "fr"
+    },
+    {
+      "text": "Trouvé un mot marrant sur ma porte... pas si marrant quand on sait que c'est le proprio.",
+      "created_at": "2024-03-16T16:23:04.000Z",
+      "id": "42c003fe-4b7f-4f9b-b488-6b53b0062b7d",
+      "author_id": "be322fc2-9201-454e-b587-29811b8116c4",
+      "lang": "fr"
+    },
+    {
+      "text": "Le Canadien joue vraiment n'importe quoi ce soir, c'est difficile à regarder.",
+      "created_at": "2024-03-16T01:43:25.000Z",
+      "id": "bd399700-1069-40a6-a107-2e9b778551df",
+      "author_id": "04ce8699-61e9-4a9e-8db3-829b6a5674af",
+      "lang": "fr"
+    },
+    {
+      "text": "- Dans mon ancien compte, j'avais dit que ceux qui parlaient franglais étaient des golmons.",
+      "created_at": "2024-03-16T03:13:07.000Z",
+      "id": "f2c578a3-be77-4b3a-9b5a-962e22ef2a68",
+      "author_id": "c6b0ad97-2de4-4354-9f2c-3601ba555505",
+      "lang": "fr"
+    },
+    {
+      "text": "- Plus que 4 dribbles et Messi sera à égalité avec Cristiano Ronaldo.",
+      "created_at": "2024-03-16T17:04:23.000Z",
+      "id": "38c11b1f-8064-4812-b66b-86edb031a2b1",
+      "author_id": "789a52f6-3a23-43a5-8b8e-d08f1f1351f5",
+      "lang": "fr"
+    },
+    {
+      "text": "Trouvé une note bizarre sur ma porte ce matin. Vous seriez pas surpris si je vous disais quoi.",
+      "created_at": "2024-03-16T07:34:14.000Z",
+      "id": "7b4836d2-be78-4657-9210-28e7b80cfd0e",
+      "author_id": "be322fc2-9201-454e-b587-29811b8116c4",
+      "lang": "fr"
+    },
+    {
+      "text": "['Round 5 de Dune IMAX au cinéma Beaubien']",
+      "created_at": "2024-03-16T00:11:24.000Z",
+      "id": "bf9a2134-033e-42fd-9b15-5d0545c58845",
+      "author_id": "e180c7e9-b2a0-408b-a266-42c3868f61ac",
+      "lang": "fr"
+    },
+    {
+      "text": "J'arrive pas à finir ce livre, ça fait trois semaines que je suis à la page 80.",
+      "created_at": "2024-03-16T06:39:10.000Z",
+      "id": "968c6e35-90cf-429f-8b9e-e5ade88ed642",
+      "author_id": "08c58a87-5ef3-46a9-90aa-eb0744dc44a8",
+      "lang": "fr"
+    },
+    {
+      "text": "Movie night avec ma blonde ce soir, elle choisit et c'est correct.",
+      "created_at": "2024-03-16T06:29:45.000Z",
+      "id": "2a529508-bc7c-4272-9bd5-27385f8e956c",
+      "author_id": "08c58a87-5ef3-46a9-90aa-eb0744dc44a8",
+      "lang": "fr"
+    },
+    {
+      "text": "Débat ce soir chez mon frère sur le meilleur film québécois de tous les temps.",
+      "created_at": "2024-03-16T19:22:31.000Z",
+      "id": "5ba51e36-bf1a-483e-82db-cfcd5003657e",
+      "author_id": "04ce8699-61e9-4a9e-8db3-829b6a5674af",
+      "lang": "fr"
+    },
+    {
+      "text": "Quand je clique sur un lien, est-ce que je vais aller dans un autre endroit ?",
+      "created_at": "2024-03-16T02:41:10.000Z",
+      "id": "77bfd591-9187-4aac-93be-84cf53fb64fa",
+      "author_id": "3f25b029-c7ec-45d1-87fb-91caac7e7b03",
+      "lang": "fr"
+    },
+    {
+      "text": "- Le refrain de cette chanson ptn, mais c'est qui ce mec en réalité?",
+      "created_at": "2024-03-16T12:44:28.000Z",
+      "id": "2c918a7d-8081-4d63-9fed-3de4312173da",
+      "author_id": "789a52f6-3a23-43a5-8b8e-d08f1f1351f5",
+      "lang": "fr"
+    },
+    {
+      "text": "Interview passionnante hier avec une artiste émergente de la scène pop montréalaise.",
+      "created_at": "2024-03-16T02:21:02.000Z",
+      "id": "71404225-6eb4-4bd0-aa27-1949364c6a3f",
+      "author_id": "5cef3672-9f58-4b02-b7c5-7e978796121f",
+      "lang": "fr"
+    },
+    {
+      "text": "Juste chanté les mauvaises paroles de ma chanson préférée avec confiance. Résultat: honte totale.",
+      "created_at": "2024-03-16T09:49:12.000Z",
+      "id": "98f206de-a032-45e8-bad8-2fde404ffbb8",
+      "author_id": "be322fc2-9201-454e-b587-29811b8116c4",
+      "lang": "fr"
+    },
+    {
+      "text": "- GAMEDAY. Back-to-back en roadtrip avec un halt à Memphis. LeBron sera de la partie.",
+      "created_at": "2024-03-16T11:21:44.000Z",
+      "id": "7b55f46f-0664-4946-a055-5bd467b340ff",
+      "author_id": "789a52f6-3a23-43a5-8b8e-d08f1f1351f5",
+      "lang": "fr"
+    },
+    {
+      "text": "Soirée cinéma ce soir, on regarde Dune 2 enfin. Hâte.",
+      "created_at": "2024-03-16T03:18:57.000Z",
+      "id": "ae549983-f1e7-4bb2-84e0-7450f519ed63",
+      "author_id": "e4a69977-4c34-459a-99e2-c6da2b7a28c4",
+      "lang": "fr"
+    },
+    {
+      "text": "La pop music française est en renaissance. Comme le jeu défensif du Canadien ce mois-ci.",
+      "created_at": "2024-03-16T00:29:23.000Z",
+      "id": "391b56f0-754d-48f8-9e09-727ee6a76864",
+      "author_id": "0967d7b3-33da-44d9-9ba8-91c862ee6fb4",
+      "lang": "fr"
+    },
+    {
+      "text": "En mode révision avec de la musique pop qui donne du pep's. NBA en fond sonore. Parfait.",
+      "created_at": "2024-03-16T00:12:01.000Z",
+      "id": "4622249d-69c2-46c3-8ed9-c141fef037e6",
+      "author_id": "0967d7b3-33da-44d9-9ba8-91c862ee6fb4",
+      "lang": "fr"
+    }
+  ],
+  "users": [
+    {
+      "id": "0967d7b3-33da-44d9-9ba8-91c862ee6fb4",
+      "username": "PopSportVibes",
+      "name": "Vibes Pop",
+      "description": "Pop music + sport = vie parfaite",
+      "location": "",
+      "tweet_count": 11,
+      "z_score": 0.0055
+    },
+    {
+      "id": "04ce8699-61e9-4a9e-8db3-829b6a5674af",
+      "username": "FrancoisLapointe",
+      "name": "François L.",
+      "description": "Fan de sport, de musique et de bonne bouffe. Québécois fier.",
+      "location": "Québec City",
+      "tweet_count": 12,
+      "z_score": -0.2814
+    },
+    {
+      "id": "c6b0ad97-2de4-4354-9f2c-3601ba555505",
+      "username": "__.InfoSport44",
+      "name": "Info Sport",
+      "description": "",
+      "location": "",
+      "tweet_count": 12,
+      "z_score": 1.3709
+    },
+    {
+      "id": "b895b22e-443e-4498-8de9-63947e0d4932",
+      "username": "QuestionTout22",
+      "name": "Question Everything",
+      "description": "",
+      "location": "",
+      "tweet_count": 10,
+      "z_score": 0.0118
+    },
+    {
+      "id": "3f25b029-c7ec-45d1-87fb-91caac7e7b03",
+      "username": "GrandPapaMichel",
+      "name": "Michel R.",
+      "description": "",
+      "location": "",
+      "tweet_count": 12,
+      "z_score": -0.615
+    },
+    {
+      "id": "be322fc2-9201-454e-b587-29811b8116c4",
+      "username": "Kim_Vibes7",
+      "name": "Kim",
+      "description": "La vie c'est beau 🌸",
+      "location": "Montréal",
+      "tweet_count": 11,
+      "z_score": -1.0671
+    },
+    {
+      "id": "e180c7e9-b2a0-408b-a266-42c3868f61ac",
+      "username": "CinéQuébec2024",
+      "name": "Ciné QC",
+      "description": "Le cinéma québécois en avant",
+      "location": "Québec",
+      "tweet_count": 10,
+      "z_score": 0.5455
+    },
+    {
+      "id": "162c295a-6ded-4e93-bc5a-07c6622ef0bc",
+      "username": "MotivationDaily_FR",
+      "name": "Motivation FR",
+      "description": "Citations inspirantes chaque jour ✨",
+      "location": "",
+      "tweet_count": 10,
+      "z_score": 0.5931
+    },
+    {
+      "id": "5cef3672-9f58-4b02-b7c5-7e978796121f",
+      "username": "SophieDesmarais",
+      "name": "Sophie D.",
+      "description": "Journaliste culturelle. Musique, cinéma, théâtre.",
+      "location": "Paris / Montréal",
+      "tweet_count": 10,
+      "z_score": -0.9406
+    },
+    {
+      "id": "7c106e2e-1822-4b62-b5c1-1c54036d4722",
+      "username": "AmélieVachon",
+      "name": "Amélie V.",
+      "description": "Médecin de famille. Passion pour la randonnée et les bons livres.",
+      "location": "Sherbrooke, QC",
+      "tweet_count": 11,
+      "z_score": 0.0027
+    },
+    {
+      "id": "e4a69977-4c34-459a-99e2-c6da2b7a28c4",
+      "username": "MarieAntoinette99",
+      "name": "Marie T.",
+      "description": "Étudiante en littérature. Montréal. Elle/her.",
+      "location": "Montréal, QC",
+      "tweet_count": 11,
+      "z_score": 0.8112
+    },
+    {
+      "id": "08c58a87-5ef3-46a9-90aa-eb0744dc44a8",
+      "username": "LucasGirard88",
+      "name": "Lucas G.",
+      "description": "Dev web le jour, gamer la nuit. MTL.",
+      "location": "Montréal",
+      "tweet_count": 10,
+      "z_score": -0.6804
+    },
+    {
+      "id": "789a52f6-3a23-43a5-8b8e-d08f1f1351f5",
+      "username": "PatrickNBA_QC",
+      "name": "Pat",
+      "description": "NBA 24/7",
+      "location": "",
+      "tweet_count": 15,
+      "z_score": 0.1139
+    }
+  ]
+}
