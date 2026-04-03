@@ -1,2 +1,11 @@
+# Datasets
 data/
-data/
+
+# Fichiers de détection générés
+*.detections.en.txt
+*.detections.fr.txt
+
+# Environnements virtuels
+venv/
+env/
+.env
